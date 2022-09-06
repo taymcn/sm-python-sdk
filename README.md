@@ -20,7 +20,7 @@ cd sm-python-sdk
 
 5. Populate [SM execution role](https://github.com/tmac8972/sm-python-sdk/blob/0b0adecdb7c6a2316fefdd181168dc4aa07290c5/sm_training.py#L5) in local copy of ```sm_training.py```
 
-6. Use SM Python SDK to create SM training job and download trained model locally
+6. Use SM Python SDK to create SM training job
 ```
 python sm_training.py
 ```
