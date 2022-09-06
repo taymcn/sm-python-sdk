@@ -16,7 +16,7 @@ conda activate sm-local
 pip install pandas tensorflow sagemaker
 ```
 
-5. Clone repo
+5. Clone this repo
 ```
 git clone https://github.com/tmac8972/sm-local
 ```
