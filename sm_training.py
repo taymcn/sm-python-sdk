@@ -1,13 +1,12 @@
 import boto3
 import sagemaker
+import os
+import numpy as np
+import tensorflow.keras
+from keras.datasets import fashion_mnist
 
 sess = sagemaker.Session()
 role = '<SM Execution Role ARN>'
-
-import os
-import tensorflow.keras
-import numpy as np
-from keras.datasets import fashion_mnist
 
 (x_train, y_train), (x_val, y_val) = fashion_mnist.load_data()
 
