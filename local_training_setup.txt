@@ -1,0 +1,17 @@
+# Install Anaconda --> https://www.anaconda.com/
+
+conda create -n localsm python==3.7 	
+conda activate localsm 
+
+conda install pip pandas tensorflow==1.15 keras 
+pip install sagemaker 
+
+conda install ipykernel
+python -m ipykernel install --user --name localsm --display-name "Python (localsm)"
+
+# Using Jupyter, but this would obviously work with any IDE (PyCharm, etc.)
+
+which jupyter
+# should be /usr/local/anaconda3/bin/jupyter
+
+jupyter notebook
