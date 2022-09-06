@@ -1,5 +1,3 @@
-[Duck Duck Go](https://duckduckgo.com)
-
 This repo demonstrates basic use of the SM Python SDK on Linux, without SM notebooks, SM Studio, or Jupyter.
 
 1. Install git
