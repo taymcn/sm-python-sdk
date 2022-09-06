@@ -15,18 +15,18 @@ https://www.anaconda.com/
 
 4. Create virtual environment and install packages
 ```
-  conda create -n sm-local python==3.9
-  conda activate sm-local
-  pip install pandas tensorflow sagemaker
+conda create -n sm-local python==3.9
+conda activate sm-local
+pip install pandas tensorflow sagemaker
 ```
 
 5. Clone repo
 ```
-  git clone https://github.com/tmac8972/sm-local
+git clone https://github.com/tmac8972/sm-local
 ```
 
 6. Use SM Python SDK to create SM training job and download trained model locally
 ```
-  python sm-local/sm_local.py
+python sm-local/sm_local.py
 ```
 
