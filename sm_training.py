@@ -44,12 +44,12 @@ job_name = tf_estimator.latest_training_job.name
 client = tf_estimator.sagemaker_session.sagemaker_client
 description = client.describe_training_job(TrainingJobName=job_name)
 
-local_output_dir = os.getcwd() + '/output'
-
 # get s3 location of model artifacts
 s3_model_artifacts = description['ModelArtifacts']['S3ModelArtifacts']
 
 # download model artifacts to local machine
+local_output_dir = os.getcwd() + '/output'
+os.system(f'mkdir -p {local_output_dir}')
 os.system(f'aws s3 cp {s3_model_artifacts} {local_output_dir}')
 
 print('\n ******************* \n')
