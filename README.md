@@ -2,10 +2,11 @@ This repo demonstrates using the SM Python SDK on Linux without SM notebooks, SM
 
 1. Install git
 ```
-  sudo yum install git -y
+sudo yum install git -y
 ```
 
 2. Install and configure the AWS CLI
+
 https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html
 
 3. Install Anaconda
