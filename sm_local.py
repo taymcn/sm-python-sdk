@@ -2,7 +2,7 @@ import boto3
 import sagemaker
 
 sess = sagemaker.Session()
-role = '<SM Execution Role ARN'
+role = '<SM Execution Role ARN>'
 
 import os
 import tensorflow.keras
