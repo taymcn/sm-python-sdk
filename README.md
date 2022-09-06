@@ -18,7 +18,7 @@ git clone https://github.com/tmac8972/sm-python-sdk
 cd sm-python-sdk
 ```
 
-5. Populate [SM execution role](https://github.com/tmac8972/sm-python-sdk/blob/0b0adecdb7c6a2316fefdd181168dc4aa07290c5/sm_training.py#L5) in local copy of ```sm_training.py```
+5. Populate [SM execution role](https://github.com/tmac8972/sm-python-sdk/blob/65e2a1640fa4b53d37e3ecc245a3e829d28bf79d/sm_training.py#L9) in local copy of ```sm_training.py```
 
 6. Use SM Python SDK to create SM training job
 ```
