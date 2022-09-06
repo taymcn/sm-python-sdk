@@ -1,4 +1,4 @@
-This repo demonstrates basic use of the SageMaker Python SDK on Linux, without SM notebooks, SM Studio, or Jupyter.
+This repo demonstrates training a model with the SageMaker Python SDK on Linux, without SM notebooks, SM Studio, or Jupyter.
 
 1. Install git
 ```
