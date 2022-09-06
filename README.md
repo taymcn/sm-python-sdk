@@ -5,10 +5,11 @@ This repo demonstrates using the SM Python SDK without SM notebooks, SM Studio, 
 2. Install Anaconda --> https://www.anaconda.com/
 
 3. Create virtual environment and install packages:
-
+```
   conda create -n sm-local python==3.9
   conda activate sm-local
   conda install pip pandas tensorflow sagemaker
+```
 
 4. Execute SM training job:
 
