@@ -11,7 +11,7 @@ This repo demonstrates using the SM Python SDK without SM notebooks, SM Studio, 
   conda install pip pandas tensorflow sagemaker
 ```
 
-4. Execute SM training job:
+4. Execute SM training job
 ```
   python sm-local.py
 ```
