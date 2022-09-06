@@ -16,7 +16,7 @@ pip install pandas tensorflow sagemaker
 ```
 git clone https://github.com/tmac8972/sm-local
 ```
-6. Populate SM execution role in [sm_local.py](https://github.com/tmac8972/sm-local/blob/bd4343572de8649f00145b03abe1ead33ab65d2c/sm_local.py#L5)
+6. Populate [SM execution role](https://github.com/tmac8972/sm-local/blob/bd4343572de8649f00145b03abe1ead33ab65d2c/sm_local.py#L5) in local copy of sm_local.py. 
 
 7. Use SM Python SDK to create SM training job and download trained model locally
 ```
