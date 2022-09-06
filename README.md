@@ -9,23 +9,19 @@ sudo yum install git -y
 
 3. Install [Anaconda](https://www.anaconda.com/)
 
-4. Create virtual environment and install packages
+4. Create virtual environment, install packages, and clone this repo
 ```
-conda create -n sm-local python==3.9 -y
-conda activate sm-local
+conda create -n sm-python-sdk python==3.9 -y
+conda activate sm-python-sdk
 pip install pandas tensorflow sagemaker
-```
-
-5. Clone this repo
-```
 git clone https://github.com/tmac8972/sm-python-sdk
-```
-
-6. Populate SM execution role in local copy of ```sm_training.py```
-
-7. Use SM Python SDK to create SM training job and download trained model locally
-```
 cd sm-python-sdk
+```
+
+5. Populate [SM execution role](https://github.com/tmac8972/sm-python-sdk/blob/0b0adecdb7c6a2316fefdd181168dc4aa07290c5/sm_training.py#L5) in local copy of ```sm_training.py```
+
+6. Use SM Python SDK to create SM training job and download trained model locally
+```
 python sm_training.py
 ```
 
