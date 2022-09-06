@@ -25,6 +25,6 @@ https://www.anaconda.com/
 
 6. Use SM Python SDK to create SM training job and download trained model locally
 ```
-  python sm-local/sm-local.py
+  python sm-local/sm_local.py
 ```
 
